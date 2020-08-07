@@ -1,0 +1,11 @@
+Brand,Price,Used Year,Evaluation,Broken
+Audi,30000,2,Good,True
+Toyota,25000,5,OK,False
+Ford,27000,6,Bad,False
+Audi,35000,3,Good,True
+Mercedes,55000,1,Good,True
+Mercedes,60000,3,Good,False
+Audi,31000,2,OK,False
+Audi,31000,2,Good,False
+Toyota,23000,4,OK,False
+Audi,32000,4,Good,False

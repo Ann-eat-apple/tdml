@@ -1,0 +1,12 @@
+Brand,Price,Used Year,Evaluation,Broken,Description
+Audi,30000,2,Good,True,"This car is not good!"
+Toyota,25000,5,OK,False,"This car is great!"
+Ford,27000,6,Bad,False,"I love this car."
+Audi,35000,3,Good,True,"Actually, this car is bad."
+Mercedes,55000,1,Good,True,"Not good"
+Mercedes,60000,3,Good,False,"Excellent"
+Audi,31000,2,OK,False,"Well"
+Audi,31000,2,Good,False,"In fact, very good!"
+Toyota,23000,4,OK,False,"Not bad"
+Audi,32000,4,Good,False,"Fuck"
+
