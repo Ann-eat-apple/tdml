@@ -20,10 +20,10 @@ Current dataframes, including Pandas and PySpark, are widely used to manipulate 
 cd examples/numpy
 python simple_sklearn_regression.py
 ```
-For more examples, please go to the [examples](./examples) folder.
+For more examples, please go to the [examples](https://github.com/zechengz/tdml/tree/master/examples) folder.
 
 ## Tests
-Please refer to the [tests](./tests).
+Please refer to the [tests](https://github.com/zechengz/tdml/tree/master/tests).
 
 ## Contact
 [zecheng@cs.stanford.edu](mailto:zecheng@cs.stanford.edu)
