@@ -19,7 +19,7 @@ Current dataframes, including Pandas and PySpark, are widely used to manipulate 
 * Automatically transform dataframe (Pandas or PySpark) into ML framework (NumPy, PyTorch or TensorFlow) arrays or tensors.
 * Map categorical data to integers, represent text data by bag-of-word and support UDF on text transformation.
 * Split transformed data into several sets (train-test or train-validation-test) by one line of code.
-* Support reshuffling the train set after the splitting.
+* Support reshuffling (with random seed) the train set after the splitting.
 
 .. toctree::
    :glob:
