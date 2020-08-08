@@ -1,6 +1,6 @@
 # Transform Dataframe for Machine Learning
 
-[![PyPI](https://img.shields.io/pypi/v/tdml.svg)](https://pypi.org/project/tdml/) ![version](https://img.shields.io/badge/version-0.1.1-blue) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zechengz/tdml/blob/master/LICENSE) [![Build](https://travis-ci.com/zechengz/tdml.svg?branch=master)
+[![PyPI](https://img.shields.io/pypi/v/tdml.svg)](https://pypi.org/project/tdml/) ![version](https://img.shields.io/badge/version-0.1.1-blue) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zechengz/tdml/blob/master/LICENSE) [![Build](https://travis-ci.com/zechengz/tdml.svg)
 
 A lightweight and easy-to-use Python package that transforming dataframes into machine learning friendly data format.
 
