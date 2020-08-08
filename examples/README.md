@@ -28,6 +28,8 @@ Coming soon.
 
 ## Notebook
 
+Please refer to the [notebook](./notebook) or open directly on Colab.
+
 * Twelve scikit-learn classification models on Credit data: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/158WA8yX9Fb4RTLOy7GnmzjEAtYYtIHpB?usp=sharing)
 
 ## Data
