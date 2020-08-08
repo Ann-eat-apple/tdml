@@ -2,8 +2,6 @@ sudo: false
 
 os:
   - linux
-  - windows
-  - osx
 
 language: python
 
@@ -21,4 +19,4 @@ install:
 script:
   - cd tests
   - pytest test_dataset/test_dataset_numpy.py
-  - pytest test_dataset/test_data_numpy.py
+  - pytest test_data/test_data_numpy.py
