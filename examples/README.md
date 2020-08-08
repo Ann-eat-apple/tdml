@@ -28,5 +28,10 @@ Coming soon.
 
 ## Data
 
+```shell
+mkdir data
+```
+Download the data and put them to the `data` folder.
+
 * Google stock data (from Yahoo Finance): [Yahoo Finance GOOG](https://finance.yahoo.com/quote/GOOG/history?p=GOOG)
 * Credit data (from OpenML): [credit-g](https://www.openml.org/d/31)
