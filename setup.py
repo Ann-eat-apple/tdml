@@ -1,11 +1,13 @@
 import setuptools
 
+__version__ = '0.1.2'
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="tdml",
-    version="0.1.1",
+    version=__version__,
     author="Zecheng Zhang",
     author_email="zecheng@cs.stanford.edu",
     keywords=['pandas', 'pyspark', 'numpy', 'pytorch', 'tensorflow', 'machine learning'],
