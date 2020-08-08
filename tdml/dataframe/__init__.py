@@ -5,8 +5,8 @@ from . import dataframe
 
 def get_dataframe():
 	dataframe_name = 'pandas'
-	if 'DATAFRAME' in os.environ:
-		dataframe_name = os.getenv('DATAFRAME')
+	if 'TDML_DATAFRAME' in os.environ:
+		dataframe_name = os.getenv('TDML_DATAFRAME')
 	if dataframe_name not in ['pandas', 'pyspark']:
 		print('Unsupported "{}" as the dataframe, using "pandas" instead.'.format(dataframe_name))
 		dataframe_name = 'pandas'

@@ -15,7 +15,7 @@ dataframe is `Pandas <https://pandas.pydata.org/>`_. Another one is
 .. code-block:: python
 
 	import os
-	os.environ['DATAFRAME'] = 'pyspark'
+	os.environ['TDML_DATAFRAME'] = 'pyspark'
 	# choose the PySpark as the dataframe
 	import tdml
 
@@ -23,7 +23,7 @@ User can also specify the dataframe through the terminal:
 
 .. code-block:: shell
 
-	export DATAFRAME="pyspark"
+	export TDML_DATAFRAME="pyspark"
 
 Choose ML Framework
 -------------------
