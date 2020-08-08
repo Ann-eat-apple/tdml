@@ -20,5 +20,5 @@ install:
 
 script:
   - cd tests
-  - make test_dataset_numpy
-  - make test_data_numpy
+  - pytest test_dataset/test_dataset_numpy.py
+  - pytest test_dataset/test_data_numpy.py
