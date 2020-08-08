@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tdml",
-    version="0.1.0",
+    version="0.1.1",
     author="Zecheng Zhang",
     author_email="zecheng@cs.stanford.edu",
     description="Transform Dataframe for Machine Learning",
