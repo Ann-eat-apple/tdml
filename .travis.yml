@@ -1,0 +1,24 @@
+sudo: false
+
+os:
+  - linux
+  - windows
+  - osx
+
+language: python
+
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+install:
+  - pip install numpy
+  - pip install pandas
+  - pip install tdml
+  - pip install pytest
+
+script:
+  - cd tests
+  - make test_dataset_numpy
+  - make test_data_numpy
