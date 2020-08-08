@@ -1,6 +1,6 @@
 import os
 import torch
-os.environ['MLLIB'] = 'pytorch'
+os.environ['TDML_FRAMEWORK'] = 'pytorch'
 os.environ['TDML_DATAFRAME'] = 'pyspark'
 import tdml
 import unittest

@@ -1,6 +1,6 @@
 import os
 import numpy as np
-os.environ['MLLIB'] = 'pytorch'
+os.environ['TDML_FRAMEWORK'] = 'pytorch'
 import tdml
 import unittest
 from utils import *

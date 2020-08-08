@@ -1,5 +1,5 @@
 import os
-os.environ['MLLIB'] = 'tensorflow'
+os.environ['TDML_FRAMEWORK'] = 'tensorflow'
 import tdml
 import unittest
 import tensorflow as tf

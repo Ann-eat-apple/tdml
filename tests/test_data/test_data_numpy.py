@@ -1,5 +1,4 @@
 import os
-os.environ['MLLIB'] = 'numpy'
 import tdml
 import unittest
 import numpy as np

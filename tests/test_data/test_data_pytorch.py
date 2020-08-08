@@ -1,5 +1,5 @@
 import os
-os.environ['MLLIB'] = 'pytorch'
+os.environ['TDML_FRAMEWORK'] = 'pytorch'
 import tdml
 import unittest
 import torch

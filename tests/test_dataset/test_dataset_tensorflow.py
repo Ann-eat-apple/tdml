@@ -1,6 +1,6 @@
 import os
 import numpy as np
-os.environ['MLLIB'] = 'tensorflow'
+os.environ['TDML_FRAMEWORK'] = 'tensorflow'
 import tdml
 import unittest
 from utils import *

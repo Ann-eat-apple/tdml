@@ -1,6 +1,5 @@
 import os
 import torch
-os.environ['MLLIB'] = 'numpy'
 os.environ['TDML_DATAFRAME'] = 'pyspark'
 import tdml
 import unittest

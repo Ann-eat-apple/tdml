@@ -5,8 +5,8 @@ from . import framework
 
 def get_framework():
 	framework_name = "numpy"
-	if 'MLLIB' in os.environ:
-		framework_name = os.getenv('MLLIB')
+	if 'TDML_FRAMEWORK' in os.environ:
+		framework_name = os.getenv('TDML_FRAMEWORK')
 	if framework_name not in ['pytorch', 'numpy', 'tensorflow']:
 		print('Unsupported "{}" as the ML framework, using "numpy" instead.'.format(framework_name))
 		framework_name = 'numpy'

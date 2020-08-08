@@ -34,9 +34,9 @@ ML framework is `NumPy <https://numpy.org/>`_. The other two are `PyTorch <https
 .. code-block:: python
 
 	import os
-	os.environ['MLLIB'] = 'pytorch'
+	os.environ['TDML_FRAMEWORK'] = 'pytorch'
 	# choose the PyTorch as the ML framework
-	# os.environ['MLLIB'] = 'tensorflow'
+	# os.environ['TDML_FRAMEWORK'] = 'tensorflow'
 	import tdml
 
 Similarly, you can also specify the framework through `export` in terminal.

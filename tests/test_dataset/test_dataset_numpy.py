@@ -1,6 +1,5 @@
 import os
 import numpy as np
-os.environ['MLLIB'] = 'numpy'
 import tdml
 import unittest
 from utils import *
