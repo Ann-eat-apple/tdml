@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.1.1",
     author="Zecheng Zhang",
     author_email="zecheng@cs.stanford.edu",
-    keywords=['pandas', 'pyspark', 'numpy', 'pytorch', 'tensorflow', 'machine learning']
+    keywords=['pandas', 'pyspark', 'numpy', 'pytorch', 'tensorflow', 'machine learning'],
     description="Transform Dataframe for Machine Learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
