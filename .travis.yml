@@ -15,8 +15,11 @@ install:
   - pip install pandas
   - pip install tdml
   - pip install pytest
+  - pip install torch==1.6.0+cpu
 
 script:
   - cd tests
   - pytest test_dataset/test_dataset_numpy.py
   - pytest test_data/test_data_numpy.py
+  - pytest test_dataset/test_dataset_pytorch.py
+  - pytest test_data/test_data_pytorch.py
